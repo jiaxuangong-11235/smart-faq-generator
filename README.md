@@ -100,13 +100,11 @@ For each document, the system generated a small set of focused FAQs:
 
 ### Example (LLM as a Judge)
 
-```text
 Q1: What is LLM-as-a-Judge?
 A1: LLM-as-a-Judge refers to the use of Large Language Models (LLMs) to evaluate objects, actions, or decisions based on predefined rules, criteria, or preferences.
 
 Q2: What are the main challenges in implementing LLM-as-a-Judge systems?
 A2: The main challenges include the absence of a systematic review, fragmented understanding, inconsistent practices, and ensuring the reliability of evaluations aligned with established standards.
----
 
 ## Discussion
 
@@ -132,25 +130,6 @@ The Smart FAQ Generator shows that LLMs can effectively summarize and restructur
 - Homework documents yielded very clear, exam-style Q&A pairs, which are ideal for student revision.
 - Dense research papers occasionally produced very technical questions that may be challenging for non-experts.
 
----
-
-## Future Directions
-
-Possible extensions of this project include:
-
-1. **Semantic Question Clustering**  
-   Group and merge similar questions across chunks automatically.
-
-2. **Retrieval-Augmented Generation (RAG)**  
-   Use vector search to retrieve the most relevant passages before asking the LLM to answer, making answers more grounded.
-
-3. **Interactive Web Interface**  
-   Wrap the notebook pipeline in a small web app so that users can upload PDFs and download FAQ files without touching code.
-
-4. **Chatbot Integration**  
-   Use the generated FAQs as a starting poi
----
-
 ## Demo Video (for Course Submission)
 
 The demo video (< 5 minutes) can:
@@ -170,4 +149,5 @@ The demo video (< 5 minutes) can:
 
 **Jiaxuan Gong**  
 USC ISE 547 – Project 1.2: Smart FAQ Generator from Documents
+
 
